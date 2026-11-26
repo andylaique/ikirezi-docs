@@ -1,0 +1,337 @@
+{
+  "name": "Ikirezi",
+  "version": 1,
+  "color": {
+    "themes": [
+      {
+        "id": "light",
+        "name": "Light"
+      },
+      {
+        "id": "dark",
+        "name": "Dark"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "plum",
+        "value": {
+          "light": "#4A1D5E",
+          "dark": "#C9A6DB"
+        },
+        "usage": "Primary brand colour. Headings, primary buttons (white text 12.9:1), active nav, the left petal of the logo."
+      },
+      {
+        "name": "on-plum",
+        "value": {
+          "light": "#FFFFFF",
+          "dark": "#1E1726"
+        },
+        "usage": "Text and icons placed on a plum fill."
+      },
+      {
+        "name": "orchid",
+        "value": {
+          "light": "#7B3F98",
+          "dark": "#B98AD0"
+        },
+        "usage": "Secondary brand hue. Focus rings, links, gradient partner of plum on hero cards (white text 7.0:1)."
+      },
+      {
+        "name": "coral",
+        "value": {
+          "light": "#F26D5B",
+          "dark": "#FF8A79"
+        },
+        "usage": "Action and warmth: SOS button, the right petal of the logo, highlights. Fill only; put ink text on it (5.9:1), white only at 24px+ (2.95:1). Never body text."
+      },
+      {
+        "name": "coral-text",
+        "value": {
+          "light": "#C2493A",
+          "dark": "#FF8A79"
+        },
+        "usage": "Coral when it must be text on pearl or white (4.9:1): inline links like 'See all', counters."
+      },
+      {
+        "name": "teal",
+        "value": {
+          "light": "#1F8A82",
+          "dark": "#4FC1B7"
+        },
+        "usage": "Care and health: cycle tracker, verified professionals, success. Icons and large fills; 4.19:1 with white is below AA for small text, use teal-deep for buttons."
+      },
+      {
+        "name": "teal-deep",
+        "value": {
+          "light": "#176B65",
+          "dark": "#4FC1B7"
+        },
+        "usage": "Teal buttons and teal text on light grounds (white text 6.3:1)."
+      },
+      {
+        "name": "gold",
+        "value": {
+          "light": "#F5B83D",
+          "dark": "#F5B83D"
+        },
+        "usage": "Star ratings, celebrations, the pearl ring. Decorative and icons only, never text on light grounds."
+      },
+      {
+        "name": "pearl",
+        "value": {
+          "light": "#FFF6F2",
+          "dark": "#17111C"
+        },
+        "usage": "Page background in the app and portals."
+      },
+      {
+        "name": "card",
+        "value": {
+          "light": "#FFFFFF",
+          "dark": "#221A29"
+        },
+        "usage": "Cards, sheets, dialogs and inputs on pearl."
+      },
+      {
+        "name": "lilac",
+        "value": {
+          "light": "#EFE6F5",
+          "dark": "#2F2338"
+        },
+        "usage": "Quiet tint: chips, selected rows, plum badges' ground."
+      },
+      {
+        "name": "coral-soft",
+        "value": {
+          "light": "#FDE4DF",
+          "dark": "#3D2220"
+        },
+        "usage": "Ground for coral badges and period days on the cycle calendar."
+      },
+      {
+        "name": "teal-soft",
+        "value": {
+          "light": "#DDF1EE",
+          "dark": "#15302E"
+        },
+        "usage": "Ground for teal badges, hygiene checklist done state, professional avatars."
+      },
+      {
+        "name": "gold-soft",
+        "value": {
+          "light": "#FDF0D3",
+          "dark": "#3A2E14"
+        },
+        "usage": "Ground for celebration banners and pending badges (text #8A5A00)."
+      },
+      {
+        "name": "ink",
+        "value": {
+          "light": "#1E1726",
+          "dark": "#F5EEF8"
+        },
+        "usage": "Body text on pearl and card (16.3:1)."
+      },
+      {
+        "name": "muted",
+        "value": {
+          "light": "#6B6177",
+          "dark": "#B3A8BE"
+        },
+        "usage": "Secondary text, captions, timestamps (5.5:1 on pearl)."
+      },
+      {
+        "name": "line",
+        "value": {
+          "light": "#E6DDEB",
+          "dark": "#3A2E44"
+        },
+        "usage": "Hairline borders of cards, inputs and table rows."
+      },
+      {
+        "name": "alert",
+        "value": {
+          "light": "#D93F4C",
+          "dark": "#FF6B76"
+        },
+        "usage": "Errors, strikes, destructive actions such as Log out confirm. White text is 4.4:1, use bold 14px+ on it."
+      }
+    ]
+  },
+  "type": {
+    "families": {
+      "display": "\"Fraunces\", Georgia, \"Times New Roman\", serif",
+      "sans": "\"Plus Jakarta Sans\", system-ui, -apple-system, \"Segoe UI\", sans-serif"
+    },
+    "groups": [
+      {
+        "name": "Display",
+        "family": "display",
+        "styles": [
+          {
+            "name": "display-xl",
+            "fontSize": "40px",
+            "lineHeight": "44px",
+            "fontWeight": 600
+          },
+          {
+            "name": "display",
+            "fontSize": "32px",
+            "lineHeight": "37px",
+            "fontWeight": 600
+          },
+          {
+            "name": "headline",
+            "fontSize": "28px",
+            "lineHeight": "34px",
+            "fontWeight": 600
+          },
+          {
+            "name": "title",
+            "fontSize": "22px",
+            "lineHeight": "28px",
+            "fontWeight": 600
+          }
+        ]
+      },
+      {
+        "name": "Text",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "heading",
+            "fontSize": "17px",
+            "lineHeight": "24px",
+            "fontWeight": 700
+          },
+          {
+            "name": "body",
+            "fontSize": "15px",
+            "lineHeight": "23px",
+            "fontWeight": 400
+          },
+          {
+            "name": "label",
+            "fontSize": "13px",
+            "lineHeight": "18px",
+            "fontWeight": 600
+          },
+          {
+            "name": "caption",
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "fontWeight": 500
+          },
+          {
+            "name": "eyebrow",
+            "fontSize": "11px",
+            "lineHeight": "14px",
+            "fontWeight": 700
+          }
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "tokens": [
+      {
+        "name": "space-1",
+        "value": "4px",
+        "usage": "Icon-to-label gaps."
+      },
+      {
+        "name": "space-2",
+        "value": "8px",
+        "usage": "Chip padding, gaps inside a row."
+      },
+      {
+        "name": "space-3",
+        "value": "12px",
+        "usage": "Gaps between list items."
+      },
+      {
+        "name": "space-4",
+        "value": "16px",
+        "usage": "Card padding on mobile, screen gutter."
+      },
+      {
+        "name": "space-6",
+        "value": "24px",
+        "usage": "Card padding on web, section gaps."
+      },
+      {
+        "name": "space-8",
+        "value": "32px",
+        "usage": "Between page sections."
+      }
+    ]
+  },
+  "radius": {
+    "tokens": [
+      {
+        "name": "radius-sm",
+        "value": "12px",
+        "usage": "Small buttons (36px), icon tiles, chips with text."
+      },
+      {
+        "name": "radius-md",
+        "value": "16px",
+        "usage": "Buttons (44 and 54px) and inputs, on mobile and web alike."
+      },
+      {
+        "name": "radius-lg",
+        "value": "20px",
+        "usage": "Cards, sheets and dialogs."
+      },
+      {
+        "name": "radius-pill",
+        "value": "999px",
+        "usage": "Badges, filter chips, avatars, toggles."
+      }
+    ]
+  },
+  "shadow": {
+    "tokens": [
+      {
+        "name": "shadow-card",
+        "value": "0 1px 2px rgba(30,23,38,.04), 0 8px 24px rgba(74,29,94,.06)",
+        "usage": "Resting cards. One soft plum-tinted lift, never stacked."
+      }
+    ]
+  },
+  "size": {
+    "tokens": [
+      {
+        "name": "button-lg",
+        "value": "54px",
+        "usage": "Primary action at the bottom of a mobile screen."
+      },
+      {
+        "name": "button-md",
+        "value": "44px",
+        "usage": "Default button height and minimum touch target."
+      },
+      {
+        "name": "button-sm",
+        "value": "36px",
+        "usage": "Inline actions in rows (Done, Start)."
+      },
+      {
+        "name": "icon-sm",
+        "value": "16px",
+        "usage": "Inline icons beside text."
+      },
+      {
+        "name": "icon-md",
+        "value": "20px",
+        "usage": "Icons in buttons and the bottom nav."
+      },
+      {
+        "name": "icon-lg",
+        "value": "24px",
+        "usage": "Icons inside feature tiles."
+      }
+    ]
+  }
+}
